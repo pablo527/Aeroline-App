@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.FlightForm">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100px">
+
+        <TextView
+            android:id="@+id/flightActivityId"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="Id"/>
+
+        <EditText
+            android:id="@+id/txtId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:enabled="true"/>
+
+        <TextView
+            android:id="@+id/flightActivityName"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="Name"/>
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:enabled="true"/>
+        <TextView
+            android:id="@+id/flightActivityOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="Origin"/>
+
+        <EditText
+            android:id="@+id/txtOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/flightActivityDestiny"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="Destiny"/>
+
+        <EditText
+            android:id="@+id/txtDestiny"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/flightActivityPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="Price"/>
+
+        <EditText
+            android:id="@+id/txtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/flightActivityPlane"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="Plane"/>
+
+        <EditText
+            android:id="@+id/txtPlane"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE" />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+        <Button
+            android:id="@+id/btnFind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
